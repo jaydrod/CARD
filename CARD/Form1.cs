@@ -37,7 +37,7 @@ namespace CARD
             player.Play();
 
             g.Clear(Color.Black);
-            g.DrawString("Happpy Halloween", titleFont, titleBrush, 240, 200);
+            g.DrawString("Happpy Halloween", titleFont, titleBrush, 240, 200); 
 
             //Drawing outside
             g.FillEllipse(drawBrush, 50, 50, 150, 150);
